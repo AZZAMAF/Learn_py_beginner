@@ -4,7 +4,7 @@
 print("=======Integer======")
 data_int = 9 
 print("data =", data_int, type(data_int))
-
+print(float(data_int))
 data_float = float(data_int)
 data_string = str(data_int)
 data_bool = bool(data_int) # will false when int = 0
@@ -38,3 +38,4 @@ data_float = float(data_bool)
 print("data =", data_int, type(data_int))
 print("data =", data_string, type(data_string))
 print("data =", data_float, type(data_float))
+
