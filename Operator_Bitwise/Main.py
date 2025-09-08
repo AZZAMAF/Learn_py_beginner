@@ -35,3 +35,24 @@ print("\n =========NOT========")
 print('Nilai :',a,'binary',format(a,'08b'))
 print('---------------------------(~)')
 print('Nilai :',c,'binary',format(c,'08b'))
+print('---------------------------(^)')
+d = 0b0000001001
+e = 0b1111111111
+print('Nilai :',e^d,'binary',format(e^d,'08b'))
+
+#Shifting 
+
+# ShifRight (>>)
+c = a >> 1
+print('\n============>>===========')
+print('Nilai :',a,'binary',format(a,'08b'))
+print('--------------------- (>>)')
+print('Nilai :',c,'binary',format(c,'08b'))
+
+# ShifRight (<<)
+c = a << 2
+print('\n============>>===========')
+print('Nilai :',a,'binary',format(a,'08b'))
+print('--------------------- (<<)')
+print('Nilai :',c,'binary',format(c,'08b'))
+
