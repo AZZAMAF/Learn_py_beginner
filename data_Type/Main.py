@@ -1,4 +1,4 @@
-#Tipe data : Angka yang tidak memiliki koma (Integer)
+z#Tipe data : Angka yang tidak memiliki koma (Integer)
 data_integer = 1
 print("data:", data_integer, ",bertipe:", type(data_integer))
 
