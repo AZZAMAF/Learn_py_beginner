@@ -1,6 +1,6 @@
 # Latihan Perulangan
 
-sisi = 4
+sisi = 10
 # 1. use Fo
 # dummy variabel
 count = 1
@@ -13,6 +13,7 @@ print("\n ===== While =====")
 count = 1
 while True:
     print("*"*count)
+    print("baka")
     count += 1
 
     if count > sisi:
@@ -24,14 +25,53 @@ print('==== ganji ====')
 count = 1
 while True:
     # akan kembali ke atas jika ganjil
-    if count%2:
+    if count%2: 
+        print('*'*count)
+        count += 1
+    else:
+        count += 1
         continue
-    
-    # akan print jika genap
-    print("*"*count)
-    count += 1
 
-    
     if count > sisi:
         break
+        
+print("last line ei")
+
+    
+print('==== ganji ====')
+# 3. Hanya ganjil saja
+
+count = 1
+while True:
+    # akan kembali ke atas jika ganjil
+    if count%2: 
+        print('*'*count)
+        count += 1
+    else:
+        count += 1
+        continue
+
+    if count > sisi:
+        break
+        
+print("last line ei")
+
+# 3. Segitiga sama kaki
+
+count = 1
+spasi = int(sisi/2)
+print(spasi)
+while True:
+    # akan kembali ke atas jika ganjil
+    if count%2: 
+        print(' '*spasi,'+'*count)
+        spasi -= 1
+        count += 1
+    else:
+        count += 1
+        continue
+
+    if count > sisi:
+        break
+print("last line ei")
         
