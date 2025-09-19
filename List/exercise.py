@@ -15,7 +15,7 @@ while True:
     print('No \t.| Judul \t\t | Penulis')
     for index,buku in enumerate(listBuku):
         print(f'{index+1}\t{bukuBaru[0]}\t\t {bukuBaru[1]}.')
-    
+        
     print('\n\n','='*20)
     isLanjut = input('Apakah Di lanjutkan ?(y/n)')
 
