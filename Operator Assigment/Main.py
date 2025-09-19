@@ -20,6 +20,7 @@ b = 10
 print('nilai b =', b)
 
 #MODULUS & Floor Divison
+print("modulus divisoin")
 b %= 3
 print('nilai a %= 3, Nilai B Menjai = ', b)
 
@@ -29,13 +30,15 @@ print('\n Nilai B =',b)
 b //= 3
 print('nilai b //= 3, Nilai B Menjadi=', a)
 
+print(" Exsponenn ====")
+
 # Pangkat Or Eksponen
 a = 5
 print("nilai a =", a)
 a **= 3
 print('nilai a **= 3, Nilai A menjadi=', a)
 
-#Oprasi Bitwise
+#Opras  i Bitwise
 
 # ====== OR ======
 c = True
@@ -75,5 +78,5 @@ d = 0b0100
 print('\n Nilai D =', format(d,'04b'))
 d >>= 2
 print('nilai d >>= 2  , Nilai d Menjadi =', format(d,'04b'))
-d <<= 1
+d <<= 10
 print('Nilai d <<= 1, nilai d menjadi', format(d, '04b'))

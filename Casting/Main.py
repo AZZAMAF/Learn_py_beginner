@@ -38,4 +38,3 @@ data_float = float(data_bool)
 print("data =", data_int, type(data_int))
 print("data =", data_string, type(data_string))
 print("data =", data_float, type(data_float))
-

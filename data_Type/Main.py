@@ -1,4 +1,4 @@
-z#Tipe data : Angka yang tidak memiliki koma (Integer)
+#Tipe data : Angka yang tidak memiliki koma (Integer)
 data_integer = 1
 print("data:", data_integer, ",bertipe:", type(data_integer))
 
@@ -28,3 +28,4 @@ from ctypes import c_double
 
 data_c_double = c_double(10.5)
 print("data:", data_c_double, ",bertipe:", type(data_c_double) )
+print('woi8')

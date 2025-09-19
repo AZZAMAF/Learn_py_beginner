@@ -15,3 +15,13 @@ print(time.time() - start_time, "detik")
 # TATA CARA RUN
 #cd __pycache__ -> python3 main tab/ enter/ jalan deh
 #cd.. = turun satu folder
+
+import dis
+
+def my_code():
+    a = 7
+    b = 3
+    c = a * b
+    print(c)
+
+dis.dis(my_code)
