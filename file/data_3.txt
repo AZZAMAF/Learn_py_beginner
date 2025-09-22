@@ -1,0 +1,2 @@
+data ke 3
+menambah dengan r+

@@ -23,4 +23,4 @@ if __name__ == "__main__":
     hasil = fungsi_tambah(angka1,angka2)
     print(f'hasil tambah = {hasil}')
 
-import package.main
+import package
