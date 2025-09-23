@@ -38,9 +38,9 @@ if __name__ == "__main__" :
 
         match user_Option:
             case "1": CRUD.read_console()
-            case "2": print('Create Data')
-            case "3": print('Update Data')
-            case "4": print('Delete Data')
+            case "2": CRUD.create_console()
+            case "3": CRUD.update_console()
+            case "4": CRUD.delete_console()
 
         
         isDone = input('\nApakah Selesay y/n ?')
